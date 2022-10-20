@@ -9,7 +9,7 @@
         $address = $_POST['address'];
 
         $sToken = "CD1JURYAVKD6VZlztQVEbEPyzuDZvudr9MCqljNOATR";
-	    $sMessage = "รายละเอียดการขอเบิกเครื่องพิมพ์\n";
+	    $sMessage = "รายละเอียดการขอเบิกหมึกเครื่องพิมพ์\n";
 	    $sMessage .= "เครื่องพิมพ์ : " . $name . " \n";
 	    $sMessage .= "เครื่องพิมพ์ : " . $printer . " \n";
 	    $sMessage .= "สถานที่ใช้งาน: " . $location . " \n";
