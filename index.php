@@ -1,6 +1,6 @@
 <?php
 
-    session_start();
+session_start();
 
 ?>
 
@@ -27,9 +27,9 @@
             <?php if (isset($_SESSION['success'])) {  ?>
 
             <div class="alert alert-success" role="alert">
-                <?php 
-                        echo $_SESSION['success'];
-                        unset ($_SESSION['success']);
+                <?php
+                    echo $_SESSION['success'];
+                    unset($_SESSION['success']);
                     ?>
             </div>
 
@@ -38,9 +38,9 @@
             <?php if (isset($_SESSION['error'])) {  ?>
 
             <div class="alert alert-danger" role="alert">
-                <?php 
-                        echo $_SESSION['error'];
-                        unset ($_SESSION['error']);
+                <?php
+                    echo $_SESSION['error'];
+                    unset($_SESSION['error']);
                     ?>
             </div>
 
@@ -71,13 +71,20 @@
                 </select>
             </div>
 
+            <div class="form-check form-check-inline">
+                <label for="number" class="form-label fs-4">ต้องการเบิกหมึกจำนวน : </label>
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">1</label>
+                <label for="number" class="form-label fs-4">กล่อง</label>
+            </div>
+
             <div class="form-floating mb-3">
                 <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
                     style="height: 100px" name="address"></textarea>
                 <label for="floatingTextarea2">รายละเอียด ชื่อและที่อยู่ผู้รับ เบอร์โทรติดต่อ</label>
             </div>
 
-            
+
 
             <!-- <div class="mb-3">
                 <label for="name" class="form-label">Full Name</label>

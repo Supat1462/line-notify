@@ -10,7 +10,7 @@
 
         $sToken = "CD1JURYAVKD6VZlztQVEbEPyzuDZvudr9MCqljNOATR";
 	    $sMessage = "รายละเอียดการขอเบิกหมึกเครื่องพิมพ์\n";
-	    $sMessage .= "เครื่องพิมพ์ : " . $name . " \n";
+	    $sMessage .= "ชื่อ - นามสกุลผู้ขอเบิก : " . $name . " \n";
 	    $sMessage .= "เครื่องพิมพ์ : " . $printer . " \n";
 	    $sMessage .= "สถานที่ใช้งาน: " . $location . " \n";
 	    $sMessage .= "รายละเอียด ชื่อและที่อยู่ผู้รับ : " . $address . " \n";
